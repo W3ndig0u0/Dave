@@ -20,7 +20,7 @@ function textSequence(i) {
         setTimeout(function() {
             document.getElementById("sequence").innerHTML = text[i];
             textSequence(++i);
-        }, 4000);
+        }, 2500);
 
     } else if (text.length == i) {
         textSequence(0);

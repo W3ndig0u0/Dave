@@ -144,6 +144,38 @@ button:hover {
   background-size: cover;
 }
 
+.parallax .sitting {
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+  height: 70vh;
+  width: 100vw;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(25, 255, 215, 0.1),
+      rgba(255, 25, 5, 0.1)
+    ),
+    url("https://wallpapercave.com/wp/wp6560327.jpg");
+
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+}
+
+.parallax .sitting p {
+  padding-top: 2rem;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.parallax .sitting .con-jobs {
+  padding-top: 2rem;
+  width: 100px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: rgb(255, 145, 0);
+}
+
 footer {
   width: 1000px;
   margin: 0 auto;
@@ -164,6 +196,31 @@ article .container {
   color: white;
   background-color: rgba(6, 6, 6, 0.95);
   transition: 0.5s;
+}
+
+.con-title {
+  padding-top: 5rem;
+  margin-bottom: 1rem;
+  color: rgb(255, 145, 0);
+  text-align: center;
+}
+
+.con-btn {
+  cursor: pointer;
+  margin-left: 45vw;
+  margin-top: 1.5rem;
+}
+
+.con-btn a {
+  color: rgb(255, 145, 0);
+  text-decoration: none;
+  transition-duration: 300ms;
+  font-size: 24px;
+}
+
+.title-hr {
+  margin-bottom: 4rem;
+  width: 5rem;
 }
 
 article h1,
